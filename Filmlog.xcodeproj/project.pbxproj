@@ -14,6 +14,7 @@
 		A04AF0892D6D260700E76721 /* FilmlogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04AF0882D6D260700E76721 /* FilmlogUITests.swift */; };
 		A04AF08B2D6D260700E76721 /* FilmlogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04AF08A2D6D260700E76721 /* FilmlogUITestsLaunchTests.swift */; };
 		A04AF0982D6D2BF200E76721 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04AF0972D6D2BF200E76721 /* HomeView.swift */; };
+		A04AF09A2D6D2D4100E76721 /* TrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04AF0992D6D2D4100E76721 /* TrackerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A04AF0882D6D260700E76721 /* FilmlogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlogUITests.swift; sourceTree = "<group>"; };
 		A04AF08A2D6D260700E76721 /* FilmlogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlogUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A04AF0972D6D2BF200E76721 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A04AF0992D6D2D4100E76721 /* TrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				A04AF06D2D6D260500E76721 /* FilmlogApp.swift */,
+				A04AF0992D6D2D4100E76721 /* TrackerView.swift */,
 				A04AF0972D6D2BF200E76721 /* HomeView.swift */,
 				A04AF0712D6D260700E76721 /* Assets.xcassets */,
 				A04AF0732D6D260700E76721 /* Preview Content */,
@@ -259,6 +262,7 @@
 			files = (
 				A04AF0982D6D2BF200E76721 /* HomeView.swift in Sources */,
 				A04AF06E2D6D260500E76721 /* FilmlogApp.swift in Sources */,
+				A04AF09A2D6D2D4100E76721 /* TrackerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
