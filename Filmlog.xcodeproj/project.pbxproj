@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A04AF06E2D6D260500E76721 /* FilmlogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04AF06D2D6D260500E76721 /* FilmlogApp.swift */; };
-		A04AF0702D6D260500E76721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04AF06F2D6D260500E76721 /* ContentView.swift */; };
 		A04AF0722D6D260700E76721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04AF0712D6D260700E76721 /* Assets.xcassets */; };
 		A04AF0752D6D260700E76721 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04AF0742D6D260700E76721 /* Preview Assets.xcassets */; };
 		A04AF07F2D6D260700E76721 /* FilmlogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04AF07E2D6D260700E76721 /* FilmlogTests.swift */; };
 		A04AF0892D6D260700E76721 /* FilmlogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04AF0882D6D260700E76721 /* FilmlogUITests.swift */; };
 		A04AF08B2D6D260700E76721 /* FilmlogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04AF08A2D6D260700E76721 /* FilmlogUITestsLaunchTests.swift */; };
+		A04AF0982D6D2BF200E76721 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04AF0972D6D2BF200E76721 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		A04AF06A2D6D260500E76721 /* Filmlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filmlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04AF06D2D6D260500E76721 /* FilmlogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlogApp.swift; sourceTree = "<group>"; };
-		A04AF06F2D6D260500E76721 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A04AF0712D6D260700E76721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A04AF0742D6D260700E76721 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A04AF07A2D6D260700E76721 /* FilmlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		A04AF0842D6D260700E76721 /* FilmlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04AF0882D6D260700E76721 /* FilmlogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlogUITests.swift; sourceTree = "<group>"; };
 		A04AF08A2D6D260700E76721 /* FilmlogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A04AF0972D6D2BF200E76721 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				A04AF06D2D6D260500E76721 /* FilmlogApp.swift */,
-				A04AF06F2D6D260500E76721 /* ContentView.swift */,
+				A04AF0972D6D2BF200E76721 /* HomeView.swift */,
 				A04AF0712D6D260700E76721 /* Assets.xcassets */,
 				A04AF0732D6D260700E76721 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04AF0702D6D260500E76721 /* ContentView.swift in Sources */,
+				A04AF0982D6D2BF200E76721 /* HomeView.swift in Sources */,
 				A04AF06E2D6D260500E76721 /* FilmlogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
